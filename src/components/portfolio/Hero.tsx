@@ -68,18 +68,6 @@ const Hero = () => {
                     className="w-full h-full object-cover"
                   />
                 </div>
-                
-                {/* Floating elements */}
-                <div className="absolute -top-4 -left-4 w-16 h-16 bg-white rounded-full shadow-lg flex items-center justify-center">
-                  <span className="text-2xl">⭐</span>
-                </div>
-                
-                <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-white rounded-full shadow-lg flex items-center justify-center">
-                  <div className="text-center">
-                    <div className="text-xs text-gray-600">Book A Call</div>
-                    <ArrowDown className="h-3 w-3 mx-auto mt-1 text-gray-600" />
-                  </div>
-                </div>
               </div>
             </div>
           </div>
