@@ -19,4 +19,8 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080
   },
+  define: {
+    // Make environment variables available to the client
+    'import.meta.env.VITE_DEPLOY_TARGET': JSON.stringify(process.env.DEPLOY_TARGET)
+  },
 }));
