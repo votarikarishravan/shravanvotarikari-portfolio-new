@@ -18,18 +18,6 @@ const Hero = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left side - Content */}
             <div className="space-y-8">
-              {/* Statistics */}
-              <div className="flex gap-8 mb-8">
-                <div className="text-left">
-                  <div className="text-4xl lg:text-5xl font-bold text-gray-900">+200</div>
-                  <div className="text-sm text-gray-600 mt-1">Project completed</div>
-                </div>
-                <div className="text-left">
-                  <div className="text-4xl lg:text-5xl font-bold text-gray-900">+50</div>
-                  <div className="text-sm text-gray-600 mt-1">Startup raised</div>
-                </div>
-              </div>
-
               {/* Main heading */}
               <div className="space-y-4">
                 <h1 className="text-6xl lg:text-7xl font-bold text-gray-900">
@@ -75,7 +63,7 @@ const Hero = () => {
               <div className="relative">
                 <div className="w-80 h-96 lg:w-96 lg:h-[500px] bg-gray-100 rounded-2xl overflow-hidden shadow-2xl">
                   <img 
-                    src="/lovable-uploads/5ade64a7-8efd-4e9e-93d5-ac177e7e2bd7.png"
+                    src="/Shravan.png"
                     alt="Shravan Votarikari - Profile" 
                     className="w-full h-full object-cover"
                   />
