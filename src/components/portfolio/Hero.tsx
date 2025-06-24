@@ -24,7 +24,7 @@ const Hero = () => {
                   Hello
                 </h1>
                 <p className="text-lg text-gray-600 max-w-md">
-                  — It's Shravan, an Integration Developer & Java Backend Specialist
+                  — It's Shravan Votarikari, an Integration Developer & Java Backend Specialist
                 </p>
               </div>
 
