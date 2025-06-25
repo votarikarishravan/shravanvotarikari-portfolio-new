@@ -11,6 +11,15 @@ const Hero = () => {
     }
   };
 
+  const downloadResume = () => {
+    const link = document.createElement('a');
+    link.href = '/resume.pdf'; // Assuming your resume is named resume.pdf in the public directory
+    link.download = 'Shravan_Votarikari_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden bg-gradient-to-br from-gray-50 to-white">
       <div className="container mx-auto px-6 py-20 relative z-10">
@@ -41,7 +50,7 @@ const Hero = () => {
                 <Button 
                   variant="outline" 
                   size="lg" 
-                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })} 
+                  onClick={downloadResume}
                   className="border-gray-300 text-gray-700 hover:bg-gray-50 font-medium px-8 py-3"
                 >
                   <Download className="mr-2 h-4 w-4" />
